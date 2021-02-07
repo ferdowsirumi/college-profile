@@ -18,10 +18,10 @@ body {
     border: 1px solid navy;
     margin: auto;
     margin-top: 10px;
-    /* background-image: url('image/background_profile.jpg'); */
-    background-image: url('image/centennial.jpg');
+    background-image: url('image/background_profile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     z-index: -20;
 }
 .container-overlay {
@@ -85,7 +85,7 @@ body {
     float: left;
     padding: 15px;
     padding-top: 25px;
-    height: 250px;
+    height: 260px;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -128,7 +128,7 @@ body {
     color: white;
 }
 ul {
-    padding: 25px;
+    padding: 15px 15px 15px 25px
 }
 li {
     font-size: 15px;
@@ -206,7 +206,7 @@ p {
     background: linear-gradient(45deg, #ff0000, #ffc107);
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:765px) {
     body{
         margin:auto;
     }
