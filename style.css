@@ -18,11 +18,11 @@ body {
     border: 1px solid navy;
     margin: auto;
     margin-top: 10px;
-    background-image: url('image/background_profile.jpg');
-    /* background-image: url('image/centennial.jpg'); */
+    /* background-image: url('image/background_profile.jpg'); */
+    background-image: url('image/centennial.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -2;
+    z-index: -20;
 }
 .container-overlay {
     position: absolute;
@@ -31,7 +31,7 @@ body {
     height: 100%;
     border-radius: 10px;
     background-color: rgba(0, 35, 82, 0.6);
-    z-index: -1;
+    z-index: -10;
 }
 /* Header Part */
 .header {
@@ -96,19 +96,19 @@ body {
     width: 59%;
 }
 .full{
-    width: 94%;
+    width: 93%;
     padding-bottom: 30px;
 }
 .image-row {
-  padding: 5px;
+   padding: 5px 0px 5px 35px;
   display: inline-block;
+  text-align: center;
 
 }
 .image-column {
-    width: 31.33%;
-    padding: 5px;
+    width: 32%;
+    padding:5px 5px 10px 0px;
     display: inline-block;
-
 }
 
 .background-white {
@@ -222,6 +222,7 @@ p {
     }
     .image-row {
        display:block;
+       padding: 25px;
     }
     .image-column {
       width: 100%;
